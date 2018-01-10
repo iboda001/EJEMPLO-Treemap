@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://oer.uoc.edu/VIS/D3/ES/treemap/treemap_base.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Treemap</title>
+<style>
+#vis{
+    height: 700px;
+}
+.node {
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+}
+.node-label {
+    padding: 4px;
+    line-height: 1em;
+    white-space: pre;
+}
+.node-value {
+    color: rgba(0,0,0,0.8);
+    font-size: 12px;
+    margin-top: 1px;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 960px;
+  margin: 1em auto;
+  position: relative;
+}
+</style>
+    
+<script src="./Treemap_files/d3.v4.min.js.descarga"></script>
+<!--<script src="js/d3.v3.min.js"></script>-->
+</head>
+
+<body>
+<div id="vis"><div class="node" title="Analista / programador" style="left: 271.444px; top: 17.9896px; width: 309px; height: 403px; background: rgb(31, 119, 180);"><div class="node-label">Tecnología</div><div class="node-value">37</div></div><div class="node" title="Analista / programador" style="left: 581.444px; top: 17.9896px; width: 166px; height: 221px; background: rgb(31, 119, 180);"><div class="node-label">Financiero</div><div class="node-value">11</div></div><div class="node" title="Analista / programador" style="left: 581.444px; top: 239.99px; width: 99px; height: 101px; background: rgb(31, 119, 180);"><div class="node-label">Comercial</div><div class="node-value">3</div></div><div class="node" title="Analista / programador" style="left: 681.444px; top: 239.99px; width: 66px; height: 101px; background: rgb(31, 119, 180);"><div class="node-label">Otros</div><div class="node-value">2</div></div><div class="node" title="Analista / programador" style="left: 581.444px; top: 341.99px; width: 83px; height: 39px; background: rgb(31, 119, 180);"><div class="node-label">Investigación</div><div class="node-value">1</div></div><div class="node" title="Analista / programador" style="left: 581.444px; top: 381.99px; width: 83px; height: 39px; background: rgb(31, 119, 180);"><div class="node-label">Secundario</div><div class="node-value">1</div></div><div class="node" title="Analista / programador" style="left: 665.444px; top: 341.99px; width: 82px; height: 39px; background: rgb(31, 119, 180);"><div class="node-label">Administración</div><div class="node-value">1</div></div><div class="node" title="Analista / programador" style="left: 665.444px; top: 381.99px; width: 82px; height: 39px; background: rgb(31, 119, 180);"><div class="node-label">Sanitario</div><div class="node-value">1</div></div><div class="node" title="Directivo" style="left: 271.444px; top: 423.99px; width: 264px; height: 190px; background: rgb(255, 127, 14);"><div class="node-label">Tecnología</div><div class="node-value">15</div></div><div class="node" title="Directivo" style="left: 536.444px; top: 423.99px; width: 176px; height: 114px; background: rgb(255, 127, 14);"><div class="node-label">Financiero</div><div class="node-value">6</div></div><div class="node" title="Directivo" style="left: 536.444px; top: 538.99px; width: 176px; height: 75px; background: rgb(255, 127, 14);"><div class="node-label">Secundario</div><div class="node-value">4</div></div><div class="node" title="Directivo" style="left: 713.444px; top: 423.99px; width: 34px; height: 95px; background: rgb(255, 127, 14);"><div class="node-label">Administración</div><div class="node-value">1</div></div><div class="node" title="Directivo" style="left: 713.444px; top: 519.99px; width: 34px; height: 94px; background: rgb(255, 127, 14);"><div class="node-label">Sanitario</div><div class="node-value">1</div></div><div class="node" title="Administrativo" style="left: 750.444px; top: 17.9896px; width: 88px; height: 151px; background: rgb(44, 160, 44);"><div class="node-label">Financiero</div><div class="node-value">4</div></div><div class="node" title="Administrativo" style="left: 839.444px; top: 17.9896px; width: 87px; height: 151px; background: rgb(44, 160, 44);"><div class="node-label">Comercial</div><div class="node-value">4</div></div><div class="node" title="Administrativo" style="left: 750.444px; top: 169.99px; width: 88px; height: 114px; background: rgb(44, 160, 44);"><div class="node-label">Otros</div><div class="node-value">3</div></div><div class="node" title="Administrativo" style="left: 839.444px; top: 169.99px; width: 87px; height: 114px; background: rgb(44, 160, 44);"><div class="node-label">Tecnología</div><div class="node-value">3</div></div><div class="node" title="Administrativo" style="left: 750.444px; top: 284.99px; width: 105px; height: 62px; background: rgb(44, 160, 44);"><div class="node-label">Sanitario</div><div class="node-value">2</div></div><div class="node" title="Administrativo" style="left: 750.444px; top: 347.99px; width: 105px; height: 31px; background: rgb(44, 160, 44);"><div class="node-label">Investigación</div><div class="node-value">1</div></div><div class="node" title="Administrativo" style="left: 856.444px; top: 284.99px; width: 35px; height: 94px; background: rgb(44, 160, 44);"><div class="node-label">Secundario</div><div class="node-value">1</div></div><div class="node" title="Administrativo" style="left: 892.444px; top: 284.99px; width: 34px; height: 94px; background: rgb(44, 160, 44);"><div class="node-label">Administración</div><div class="node-value">1</div></div><div class="node" title="Otros" style="left: 929.444px; top: 17.9896px; width: 138px; height: 120px; background: rgb(214, 39, 40);"><div class="node-label">Financiero</div><div class="node-value">5</div></div><div class="node" title="Otros" style="left: 929.444px; top: 138.99px; width: 78px; height: 167px; background: rgb(214, 39, 40);"><div class="node-label">Otros</div><div class="node-value">4</div></div><div class="node" title="Otros" style="left: 1008.44px; top: 138.99px; width: 59px; height: 167px; background: rgb(214, 39, 40);"><div class="node-label">Tecnología</div><div class="node-value">3</div></div><div class="node" title="Otros" style="left: 929.444px; top: 306.99px; width: 92px; height: 36px; background: rgb(214, 39, 40);"><div class="node-label">Investigación</div><div class="node-value">1</div></div><div class="node" title="Otros" style="left: 929.444px; top: 343.99px; width: 92px; height: 35px; background: rgb(214, 39, 40);"><div class="node-label">Administración</div><div class="node-value">1</div></div><div class="node" title="Otros" style="left: 1022.44px; top: 306.99px; width: 45px; height: 72px; background: rgb(214, 39, 40);"><div class="node-label">Secundario</div><div class="node-value">1</div></div><div class="node" title="Técnico" style="left: 750.444px; top: 381.99px; width: 105px; height: 125px; background: rgb(148, 103, 189);"><div class="node-label">Tecnología</div><div class="node-value">4</div></div><div class="node" title="Técnico" style="left: 856.444px; top: 381.99px; width: 132px; height: 74px; background: rgb(148, 103, 189);"><div class="node-label">Secundario</div><div class="node-value">3</div></div><div class="node" title="Técnico" style="left: 856.444px; top: 456.99px; width: 132px; height: 50px; background: rgb(148, 103, 189);"><div class="node-label">Financiero</div><div class="node-value">2</div></div><div class="node" title="Técnico" style="left: 989.444px; top: 381.99px; width: 38px; height: 83px; background: rgb(148, 103, 189);"><div class="node-label">Comercial</div><div class="node-value">1</div></div><div class="node" title="Técnico" style="left: 1028.44px; top: 381.99px; width: 39px; height: 83px; background: rgb(148, 103, 189);"><div class="node-label">Sanitario</div><div class="node-value">1</div></div><div class="node" title="Técnico" style="left: 989.444px; top: 465.99px; width: 78px; height: 41px; background: rgb(148, 103, 189);"><div class="node-label">Otros</div><div class="node-value">1</div></div><div class="node" title="Científico" style="left: 750.444px; top: 509.99px; width: 126px; height: 104px; background: rgb(140, 86, 75);"><div class="node-label">Investigación</div><div class="node-value">4</div></div><div class="node" title="Científico" style="left: 877.444px; top: 509.99px; width: 95px; height: 104px; background: rgb(140, 86, 75);"><div class="node-label">Otros</div><div class="node-value">3</div></div><div class="node" title="Científico" style="left: 973.444px; top: 509.99px; width: 62px; height: 104px; background: rgb(140, 86, 75);"><div class="node-label">Administración</div><div class="node-value">2</div></div><div class="node" title="Científico" style="left: 1036.44px; top: 509.99px; width: 31px; height: 104px; background: rgb(140, 86, 75);"><div class="node-label">Comercial</div><div class="node-value">1</div></div></div>
+<div class="options">
+</div>
+
+<script src="./Treemap_files/treemap_base.js.descarga"></script>
+
+</body></html>
